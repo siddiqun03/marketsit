@@ -1,0 +1,17 @@
+.ordered-box {
+  width: 730px;
+  margin: 74px auto 0px;
+}
+.order-desc {
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 10px;
+
+  color: #1c1c27;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}

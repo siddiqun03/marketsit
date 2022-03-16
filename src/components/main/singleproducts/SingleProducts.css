@@ -1,0 +1,108 @@
+.type-item {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #838383;
+
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+.singleProduct-box-top {
+  width: 100%;
+  padding: 50px 24px 27px 24px;
+  margin-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.img-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 51px;
+  margin-bottom: 18px;
+  margin-top: 9px;
+  margin-top: 5px;
+}
+.img-box img {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 40%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.products-bottom {
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #1c1c27;
+}
+.product-price {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #df6464;
+}
+.singleProduct-box-bottom {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.info-products {
+  width: 100%;
+  max-width: 825px;
+  display: inline-block;
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9f9;
+}
+.characters {
+  margin-top: 0;
+  color: #1c1c27;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 21px 0px 21px 23px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.charackter-desc {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1c1c27;
+  text-align: left;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.saver-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 254px;
+}
+.buy-btn,
+.save-btn {
+  width: 254px;
+  padding: 14px 0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #101010;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}

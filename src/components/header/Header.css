@@ -1,0 +1,105 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left {
+  width: 100%;
+  max-width: 425px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-link {
+  width: 105px;
+  height: 50px;
+  padding: 10px;
+}
+.dropDown {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 255px;
+  cursor: pointer;
+}
+.dropDown::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 21px;
+  background: url("../../images/dropdown-icon.svg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 15px;
+}
+.dropDown::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 5px;
+  background: url("../../images/down-arrow.svg");
+  background-size: cover;
+  background-position: center;
+  margin-left: 5px;
+}
+.dropDown-desc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+/* header right */
+.header-right {
+  width: 100%;
+  max-width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heart-link {
+  position: relative;
+  padding: 20px;
+}
+.shopping-link {
+  position: relative;
+  padding: 20px 6px 20px 20px;
+}
+.heart {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  background: url("../../images/heart-icon.svg");
+  background-position: center;
+  background-size: cover;
+}
+.shopping-bug {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("../../images/karzinka-icon.svg");
+  background-position: center;
+  background-size: cover;
+}
+.shop-count {
+  position: absolute;
+  top: calc(50% - 22px);
+  right: calc(50% - 27px);
+
+  width: 17.5px;
+  height: 17.5px;
+
+  border-radius: 50%;
+  background-color: #ffa542;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.heart-count {
+  right: calc(50% - 21px);
+}

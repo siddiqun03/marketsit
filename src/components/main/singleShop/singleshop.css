@@ -1,0 +1,92 @@
+.chexol-box {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.chexol-single-item {
+  width: 350px;
+  display: inline-block;
+  padding: 25px 0px 30px 0px;
+  text-align: center;
+
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffffff;
+}
+.chexol-single-item-right {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  display: inline-block;
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9f9;
+}
+
+.characters {
+  margin-top: 0;
+  color: #1c1c27;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 21px 0px 21px 23px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.character-desc {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1c1c27;
+}
+
+.desc-box {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  width: 100%;
+  max-width: 660px;
+  margin: 0 auto;
+  margin-top: auto;
+  display: flex;
+}
+.chexol-desc {
+  margin-right: 20px;
+}
+.save-box {
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buy-btn,
+.save-btn {
+  display: flex;
+  padding: 14px 0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #101010;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  justify-content: center;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+.save-btn svg path {
+  fill: #fff;
+}
+.save-btn svg {
+  margin-top: -5px;
+  margin-right: 10px;
+}

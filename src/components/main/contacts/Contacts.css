@@ -1,0 +1,82 @@
+.map-container {
+  width: 918px;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+.contacts-top {
+  display: flex;
+}
+.location-box {
+  padding: 15px 20px 27px 18px;
+  width: 100%;
+  max-width: 760px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.header-contact {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1c1c27;
+  margin-bottom: 20px;
+}
+.map {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 13px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.sotial {
+  display: flex;
+  flex-direction: column;
+  margin-left: 61px;
+}
+.sotial-network {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 97px;
+  height: 97px;
+  margin-bottom: 15px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.sotial-network:hover {
+  opacity: 0.6;
+}
+.location-dot {
+  position: relative;
+  left: 35px;
+}
+.location-dot::before {
+  position: absolute;
+  top: 5px;
+  left: -35px;
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 22px;
+  background: url("../../../images/location-dotter.svg");
+  background-position: center;
+  background-size: cover;
+  vertical-align: middle;
+  z-index: 3;
+  margin-right: 12px;
+}
+.location-place {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+}
+.location-home {
+  display: block;
+  font-size: 13px;
+  line-height: 16px;
+  color: #838383;
+}

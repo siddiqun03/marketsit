@@ -1,0 +1,12 @@
+.loginBox {
+  align-items: center;
+}
+.login_header {
+  width: 500px;
+  margin-bottom: 15px;
+  display: inline-block;
+  text-align: center;
+}
+.sign_input {
+  padding: 18px 24px;
+}

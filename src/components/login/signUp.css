@@ -1,0 +1,137 @@
+:root {
+  --lucida: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.SignUp-container {
+  width: 100%;
+  height: 100vh;
+  max-width: 1300px;
+
+  margin: 0 auto;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+
+  background: linear-gradient(164.65deg, #4196e3 3.6%, #373598 51.5%) fixed;
+  background-size: 100vw 100vh;
+}
+.signUp__left {
+  margin-bottom: 50px;
+
+  width: 100%;
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signUp__header {
+  margin-top: -40px;
+
+  color: white;
+
+  font-family: var(--lucida);
+  text-shadow: 0 4px #2e2c2cad;
+}
+/* right */
+.header_signUp {
+  display: inline-block;
+  margin: 0 auto 0 170px;
+  margin-bottom: 23px;
+  font-size: 32px;
+}
+.form__top {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.form__top label {
+  width: 245px;
+}
+.signUp__right {
+  margin-top: 50px;
+  margin-bottom: 120px;
+
+  width: 100%;
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.sign_label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-bottom: 25px;
+}
+.sign_span {
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  color: #2e567a77;
+  font-family: var(--lucida);
+  font-weight: 900;
+  transition: 0.2s;
+}
+.sign_input {
+  height: 25px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-family: var(--lucida);
+  font-weight: 800;
+  box-shadow: 0px 2px 50px 1px rgba(63, 60, 60, 0.315);
+  text-transform: uppercase;
+  color: #070655;
+}
+.sign_input:focus + .sign_span {
+  top: -21px;
+  left: 10px;
+  color: white;
+}
+.SignBtn {
+  display: inline-block;
+  width: 500px;
+  border: none;
+  color: #4196e3;
+  background: #fff;
+  padding: 7px 0px;
+  border-radius: 10px;
+
+  font-family: var(--lucida);
+  font-weight: 900;
+  cursor: pointer;
+  font-size: medium;
+  transition: 0.3s;
+}
+.SignBtn:hover {
+  background-color: #4196e3;
+  color: #fff;
+}
+.SignBtn:active {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  width: 490px;
+  padding: 5px 0px;
+  font-size: smaller;
+  opacity: 0.8;
+}
+.wrong {
+  color: tomato;
+  outline: tomato;
+}
+.correct {
+  color: rgb(13, 184, 13);
+  outline: rgb(13, 184, 13);
+}
+.ok {
+  top: -21px;
+  left: 10px;
+  color: white;
+}

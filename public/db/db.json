@@ -1,0 +1,153 @@
+{
+  "Admin": [
+    {
+      "user_name": "reactjs",
+      "password": "reactjs"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1647440857935,
+      "city": "",
+      "street": "yakkasaroy",
+      "home": "15",
+      "floor": "1",
+      "flat": "2",
+      "phoneNum": "99897777777"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "id": 16,
+    "city": "Tashkent"
+  },
+  "chexols": [
+    {
+      "id": "chexol1",
+      "title": "Chexol 12 Pro Galssy",
+      "img": {
+        "one": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReIdQqkpBafONwpKPhS5QrSdcOLwWTwadfGQ&usqp=CAU",
+        "two": "https://www.linkpicture.com/q/white_8.png"
+      },
+      "ru": "Стеклянные",
+      "eng": "Glassy",
+      "price": "600",
+      "desc": "чехол для Apple iPhone 13 Pro Max, 6.7\", защитная стеклa."
+    },
+    {
+      "id": "chexol2",
+      "title": "Chexol 12 Pro Silicone",
+      "img": {
+        "one": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhhZXQAeROeL3FlX1oyPNLyfi-IlAYyKubw&usqp=CAU"
+      },
+      "ru": "Силиконовые",
+      "eng": "Silicone",
+      "price": "400",
+      "desc": "Чехол для iPhone 12 Pro Baseus Liquid Silica Gel Protective Case."
+    },
+    {
+      "id": "chexol3",
+      "title": "Chexol 12 Pro Leather",
+      "img": {
+        "one": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHQnqdMf01rpyZwEncCXI7hCqxH3IB56s28A&usqp=CAU"
+      },
+      "ru": "Кожаные",
+      "eng": "Leather",
+      "price": "800",
+      "desc": "Baseus Original LSR представляет собой чехол-накладку для iPhone 12 Pro, выполненный из прочного материала TPU. Он обладает приятной на ощупь поверхностью и обеспечивает полноценную защиту коммуникатора. На ней не остаются следы пальцев и жирные разводы."
+    }
+  ],
+  "earphones": [
+    {
+      "id": "earPhone1",
+      "img": {
+        "one": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1473703488187",
+        "two": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV1?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1472494867484",
+        "three": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1472494867109",
+        "four": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1472494865526",
+        "five": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV4?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1473711534915"
+      },
+      "title": "Apple CLC iOS 10",
+      "price": "1190",
+      "rate": "⭐️ 5",
+      "desc": "Designed by Apple Deeper, richer bass tones Greater protection from sweat and water Control music and video playback Answer and end calls"
+    },
+    {
+      "id": "earPhone2",
+      "img": {
+        "one": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1601944539000",
+        "two": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1601053171000",
+        "three": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1601053165000",
+        "four": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV5?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1601053164000",
+        "five": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV6?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1636411946000"
+      },
+      "title": "Beats Flex",
+      "price": "3990",
+      "rate": "⭐️ 4.7",
+      "desc": "Height: 0.6 in / 1.6 cm Length: 34 in / 86.4 cm Width: 4.2 in / 10.6 cm Weight: 18.6 g / 0.66 oz Other Features: Bluetooth, With Mic, Inline Volume Control, Wireless Form Factor: In Ear Connections: Bluetooth, Wireless Power Source: Battery Batteries: Rechargeable lithium-ion"
+    },
+    {
+      "id": "earPhone3",
+      "img": {
+        "one": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744546000",
+        "two": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV1?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744546000",
+        "three": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744546000",
+        "four": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744547000",
+        "five": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV4?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744547000"
+      },
+      "title": "EarPods with 3.5 mm",
+      "price": "1190",
+      "rate": "⭐️ 4.7",
+      "desc": "Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones. The speakers inside the EarPods have been engineered to maximize sound output and minimize sound loss, which means you get high-quality audio."
+    },
+    {
+      "id": "earPhone4",
+      "img": {
+        "one": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1473703488187",
+        "two": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV1?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1472494867484",
+        "three": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1472494867109",
+        "four": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1472494865526",
+        "five": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMTN2_AV4?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1473711534915"
+      },
+      "title": "Apple CLC iOS 10 2",
+      "price": "1190",
+      "rate": "⭐️ 5",
+      "desc": "Designed by Apple Deeper, richer bass tones Greater protection from sweat and water Control music and video playback Answer and end calls"
+    },
+    {
+      "id": "earPhone5",
+      "img": {
+        "one": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1601944539000",
+        "two": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1601053171000",
+        "three": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1601053165000",
+        "four": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV5?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1601053164000",
+        "five": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MYMC2_AV6?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1636411946000"
+      },
+      "title": "Beats Flex 2",
+      "price": "3990",
+      "rate": "⭐️ 4.7",
+      "desc": "Height: 0.6 in / 1.6 cm Length: 34 in / 86.4 cm Width: 4.2 in / 10.6 cm Weight: 18.6 g / 0.66 oz Other Features: Bluetooth, With Mic, Inline Volume Control, Wireless Form Factor: In Ear Connections: Bluetooth, Wireless Power Source: Battery Batteries: Rechargeable lithium-ion"
+    },
+    {
+      "id": "earPhone6",
+      "img": {
+        "one": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744546000",
+        "two": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV1?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744546000",
+        "three": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744546000",
+        "four": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744547000",
+        "five": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MD827_AV4?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591744547000"
+      },
+      "title": "EarPods with 3.5 mm 2",
+      "price": "1190",
+      "rate": "⭐️ 4.7",
+      "desc": "Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones."
+    }
+  ],
+  "like": [{}]
+}
