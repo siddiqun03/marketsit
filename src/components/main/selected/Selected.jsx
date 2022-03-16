@@ -8,6 +8,11 @@ import "./Selected.css";
 function Selected() {
   const { lang } = useContext(Context);
   const [earphone, setEarphone] = useState([]);
+  const [date, setdate] = useState([]);
+
+  useEffect(() => {
+    setdate(JSON.parse(window.localStorage.getItem("like")));
+  }, []);
 
   useEffect(() => {
     fetch("http://localhost:3001/earphones")
@@ -44,12 +49,10 @@ function Selected() {
   return (
     <section className="earPhones">
       <h3 className="chexol-header">
-        {JSON.parse(window.localStorage.getItem("like")).length > 0
-          ? translate[lang].main.earphone
-          : "Empty :("}
+        {date.length > 0 ? translate[lang].main.earphone : "Empty :("}
       </h3>
       <ul className="chexol-list earphone-list">
-        {JSON.parse(window.localStorage.getItem("like")).map((item) => (
+        {date.map((item) => (
           <li key={item.id} className="chexol-item">
             <Link
               className="link card-link earphone-card-link"
