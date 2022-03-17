@@ -11,7 +11,7 @@ function admin() {
       .then((date) => setDate(date));
   }, []);
   useEffect(() => {
-    setProductInfo(JSON.parse(window.localStorage.getItem("totalPrice")));
+    setProductInfo(JSON.parse(window.localStorage.getItem("buy")));
   }, []);
   return (
     <div>
@@ -24,7 +24,7 @@ function admin() {
             <p className="city">City: {item.city}</p>
             <p className="street">Street: {item.street}</p>
             <p className="home">Home: {item.home}</p>
-            <p className="floor">Floor: {item.strflooreet}</p>
+            <p className="floor">Floor: {item.floor}</p>
             <p className="phoneNum">Number: {item.phoneNum}</p>
           </div>
         );

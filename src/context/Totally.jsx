@@ -5,7 +5,7 @@ function Provider({ children }) {
   const [info, setInfo] = useState([]);
 
   const [totally, setTotally] = useState(
-    JSON.parse(window.localStorage.getItem("totalPrice")) || []
+    JSON.parse(window.localStorage.getItem("buy")) || []
   );
   const [total, setTotal] = useState(0);
 
@@ -14,7 +14,7 @@ function Provider({ children }) {
   );
 
   useEffect(() => {
-    window.localStorage.setItem("totalPrice", JSON.stringify(totally));
+    window.localStorage.setItem("buy", JSON.stringify(totally));
   }, [totally]);
 
   return (

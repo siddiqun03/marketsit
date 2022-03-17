@@ -24,6 +24,7 @@ function SingleProducts() {
     );
 
     window.localStorage.setItem("buy", JSON.stringify([...new Set(local)]));
+    document.location.replace("/card");
   }
 
   return (

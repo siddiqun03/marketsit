@@ -93,7 +93,7 @@ function Ordering() {
         <div className="ordering-right-box">
           <div className="your-oreder">
             <h4 className="your-order-head">Ваш заказ</h4>
-            {JSON.parse(window.localStorage.getItem("totalPrice")).map((el) => {
+            {JSON.parse(window.localStorage.getItem("buy")).map((el) => {
               return (
                 <div key={el.id}>
                   <p className="item-info">

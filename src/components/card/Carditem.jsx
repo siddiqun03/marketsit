@@ -17,11 +17,11 @@ function Carditem({ item }) {
     let index = totally.findIndex((el) => el.id === item.id);
     totally[index].totalPrice = ((count + 1) * item.price).toFixed(2);
     totally[index].totalOrder = count + 1;
-    window.localStorage.setItem("totalPrice", JSON.stringify(totally));
+    window.localStorage.setItem("buy", JSON.stringify(totally));
 
     function findTotal() {
       let result = 0;
-      JSON.parse(window.localStorage.getItem("totalPrice")).forEach((el) => {
+      JSON.parse(window.localStorage.getItem("buy")).forEach((el) => {
         result += Number(el.totalPrice) || 0;
         console.log(result);
         return result;
@@ -37,11 +37,11 @@ function Carditem({ item }) {
       let index = totally.findIndex((el) => el.id === item.id);
       totally[index].totalPrice = ((count - 1) * item.price).toFixed(2);
       totally[index].totalOrder = count - 1;
-      window.localStorage.setItem("totalPrice", JSON.stringify(totally));
+      window.localStorage.setItem("buy", JSON.stringify([...new Set(totally)]));
 
       function findTotal() {
         let result = 0;
-        JSON.parse(window.localStorage.getItem("totalPrice")).forEach((el) => {
+        JSON.parse(window.localStorage.getItem("buy")).forEach((el) => {
           result += Number(el.totalPrice) || 0;
           console.log(result);
           return result;
