@@ -53,7 +53,7 @@ function Selected() {
       </h3>
       <ul className="chexol-list earphone-list">
         {date
-          ? date.map((item) => (
+          ? date?.map((item) => (
               <li key={item.id} className="chexol-item">
                 <Link
                   className="link card-link earphone-card-link"

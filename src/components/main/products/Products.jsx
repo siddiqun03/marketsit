@@ -66,7 +66,7 @@ function Products() {
         </aside>
         <h3 className="chexol-header">{translate[lang].main.chexolsHeader}</h3>
         <ul className="chexol-list">
-          {data.map((item) => (
+          {data?.map((item) => (
             <li key={item.id} className="chexol-item">
               <Link className="link card-link" to={`/Singleshop/${item.id}`}>
                 <img
@@ -85,7 +85,7 @@ function Products() {
       <section className="earPhones">
         <h3 className="chexol-header">{translate[lang].main.earphone}</h3>
         <ul className="chexol-list earphone-list">
-          {earphone.map((item) => (
+          {earphone?.map((item) => (
             <li key={item.id} className="chexol-item">
               <Link
                 className="link card-link earphone-card-link"
@@ -108,7 +108,7 @@ function Products() {
               </Link>
               <label>
                 <input
-                  defaultChecked={arr.find((i) => i.id === item.id)}
+                  defaultChecked={arr?.find((i) => i.id === item.id)}
                   onChange={(e) => like(item, e)}
                   className="favorite-input"
                   type="checkbox"
